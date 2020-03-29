@@ -1,6 +1,6 @@
 [package]
 name = "packybara-grpc-cli"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["jlgerber <jlgerber@gmail.com>"]
 edition = "2018"
 
@@ -15,7 +15,7 @@ structopt = "0.3.12"
 env_logger = "0.7.1"
 tokio = { version = "0.2", features = ["macros"] }
 packybara = {git= "https://github.com/jlgerber/packybara", tag="async_v0.65.2"}
-packybara-grpc = {git= "https://github.com/jlgerber/packybara-grpc", tag="v0.29.0"}
+packybara-grpc = {git= "https://github.com/jlgerber/packybara-grpc", tag="v0.31.1"}
 whoami = "0.8.1"
 serde_json = "1.0.48"
 chrono = "0.4.11"
